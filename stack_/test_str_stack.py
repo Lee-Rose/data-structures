@@ -68,7 +68,7 @@ class TestStack(unittest.TestCase):
         self.assertEqual(37, self.numbers.pop())
         self.assertNotIn(37, self.numbers)
 
-    def test_size_stack(self):
+    def test_size_stack_return_correct_value(self):
         """checking the stack length and displaying the correct value"""
         
         self.numbers.push(18)
